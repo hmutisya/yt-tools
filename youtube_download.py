@@ -122,7 +122,7 @@ def read_progress_lines_from_all_slots(playlistTitle,playlistId,num_slots):
   print(f"Processed video urls across all slots: {len(processed_lines)}")
   return processed_lines
 
-def download_playlist_items(playlistInfo, videoUrls, s3, s3_root_path,num_slots =1, slot_index =0, skip_downloads= False, progress_file_prefix= None):
+def download_playlist_items(playlistInfo, videoUrls, s3, s3_root_path,num_slots=1, slot_index=0, skip_downloads=False, progress_file_prefix=None):
     playlistTitle = playlistInfo['title'].replace(' ', '_').replace('\'', '_').lower()
     playlistId = playlistInfo['id']
 

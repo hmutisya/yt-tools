@@ -1,0 +1,9 @@
+yt-dlp
+tqdm
+spleeter
+pydub
+numpy
+sounddevice
+boto3
+datasets[s3]
+python-dateutil
